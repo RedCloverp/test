@@ -1,4 +1,11 @@
 .header {
-    display: block;
+    display: flex;
     font-size: 15px;
+    justify-content:space-around;
+    
+}
+
+img {
+    width: 150px;
+    height: auto;
 }
