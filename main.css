@@ -7,11 +7,8 @@ html {
     display: flex;
     font-size: 15px;
     justify-content:space-around;
-    border: solid;
-    background-blend-mode: multiply;
-
-    
-    
+    // border: solid;
+    background-blend-mode: multiply;   
 }
 
 .header img {
@@ -35,23 +32,36 @@ html {
     align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
-    border: solid;
+    // border: solid;
+	margin-bottom: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
     
 }
 .humster img {  
     max-width: 100%;
     width: auto;
     height: 220px;
-    border-color: brown;
     border-radius: 1em;
+	transition: 1s;
+	
 
 }
+
+.humster img:hover {
+	transform: scale(2);
+	
+}
+
 .ourphoto {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    border: solid;
+    //border: solid;
+	margin-bottom: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .ourphoto img {
@@ -60,4 +70,61 @@ html {
     height: 220px;
     border-color: brown;
     border-radius: 1em;
+	transition: 1s;
+	overflow: hidden;
+}
+.ourphoto img:hover {
+	transform: scale(2);
+}
+
+.ourphoto2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    // border: solid;
+	margin-bottom: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.ourphoto2 img {
+    max-width: 100%;
+    width: auto;
+    height: 220px;
+    border-color: brown;
+    border-radius: 1em;
+	transition: 1s;
+	overflow: hidden;
+}
+.ourphoto2 img:hover {
+	transform: scale(2);
+}
+
+.footer {	
+    display: flex;
+    font-size: 15px;
+    justify-content:flex-end;
+    // border: solid;
+    background-blend-mode: multiply;   
+}
+
+.footer img {
+	width: 75px;
+	height: auto;
+	margin-left: 20px;
+	
+}
+.logo {
+	display: flex;
+	font-size: large;
+	justify-content: space-around;
+	margin-bottom: 25px;
+	margin-right: 25px;
+}
+
+.entry {
+	display: flex;
+	justify-content: center;
+	font-style: italic;
 }
