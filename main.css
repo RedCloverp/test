@@ -1,11 +1,63 @@
+html {
+    background-image: url(/img/pexels-engin-akyurt-5220578.jpg);
+    max-width: 100%;
+}
+
 .header {
     display: flex;
     font-size: 15px;
     justify-content:space-around;
+    border: solid;
+    background-blend-mode: multiply;
+
+    
     
 }
 
-img {
-    width: 150px;
+.header img {
+    width: 200px;
     height: auto;
+    max-width: 100%;
+    border-radius: 1em;
+}
+
+.slogan {
+    padding-top: 60px;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.humster {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: solid;
+    
+}
+.humster img {  
+    max-width: 100%;
+    width: auto;
+    height: 220px;
+    border-color: brown;
+    border-radius: 1em;
+
+}
+.ourphoto {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    border: solid;
+}
+
+.ourphoto img {
+    max-width: 100%;
+    width: auto;
+    height: 220px;
+    border-color: brown;
+    border-radius: 1em;
 }
